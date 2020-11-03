@@ -1,0 +1,85 @@
+html, body {
+  background: grey;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  background: rgba(000, 000, 000, 0.5);
+  padding-bottom: 2px;
+  color: rgba(255, 0, 0, 0.8);
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Times", serif;
+}
+
+.sidebar {
+  font-size: 30px;
+}
+
+.sidebar .base {
+  position: absolute;
+  top: -25px;
+  color: rgba(255, 0, 0, 0.8);
+  border-bottom: 4px rgba(255, 0, 0, 0.8) solid;
+  left: 20px;
+}
+
+.sidebar .bets {
+  position: absolute;
+  top: 52px;
+  color: rgba(224, 194, 0, 0.8);
+  left: 23px;
+}
+
+.linkblock ul {
+  margin-top: 0px;
+  list-style: none;
+  text-align: center;
+  background: rgba(000, 000, 000, 0.2);
+}
+
+.linkblock li {
+  display: inline;
+  padding-left: 30px;
+}
+
+.linkblock a {
+  text-decoration: none;
+  color: rgba(224, 194, 0, 1);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.linkblock a:hover {
+  border-bottom: 2px rgba(255, 0, 0, 0.6) solid;
+}
+
+.main-header .match {
+  color: rgba(224, 194, 0, 0.8);
+}
+
+.tab {
+  width: 500px;
+  margin-left: 470px;
+}
+
+.table {
+  color: rgba(255, 0, 0, 0.6);
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.table .score {
+  color: rgba(224, 194, 0, 0.8);
+}
+
+.date {
+  color: rgba(224, 194, 0, 0.8);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
